@@ -171,9 +171,10 @@ body {
   align-items: center;
   flex-direction: column;
   margin-top: 60px;
+  margin-bottom: 50px;
   background-image: url("./Flower Asset/Rectangle\ 9.png");
-  margin: 140px;
   border-radius: 20px;
+  background-repeat: no-repeat;
 }
 .deal-text {
   margin-top: 70px;
