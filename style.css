@@ -45,6 +45,7 @@ body {
   border-radius: 10px;
   /* font-weight: bold; */
   font-size: 17px;
+  text-decoration: none;
 }
 .head-image-parent {
   /* /* margin-bottom: 0px; */
@@ -154,6 +155,8 @@ body {
   text-align: center;
   /* gap: 50px; */
   margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 50px;
 }
 .youtube-head {
   text-align: center;
@@ -175,27 +178,31 @@ body {
   background-image: url("./Flower Asset/Rectangle\ 9.png");
   border-radius: 20px;
   background-repeat: no-repeat;
+  background-position: center;
+  /* width: 80%; */
+  margin: 100px;
 }
 .deal-text {
-  margin-top: 70px;
+  margin-top: 130px;
   margin-bottom: 0px;
   font-size: 35px;
 }
 .placeholder-subs {
   border: none;
-  padding: 15px 100px;
+  padding: 15px 300px;
   padding-left: 15px;
   /* margin: 10px; */
   border-radius: 10px;
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 140px;
+  /* margin-left: 130px; */
 }
 .footer {
   background-color: #111010;
   color: white;
   text-align: center;
   margin-bottom: 0;
-  padding: 30px;
+  padding: 60px;
 }
 .copyright {
   color: #ffffff40;
