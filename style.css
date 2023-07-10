@@ -193,4 +193,9 @@ body {
   background-color: #111010;
   color: white;
   text-align: center;
+  margin-bottom: 0;
+  padding: 30px;
+}
+.copyright {
+  color: #ffffff40;
 }
