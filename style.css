@@ -14,6 +14,7 @@ body {
 }
 .text-titles {
   width: 50%;
+  padding-left: 60px;
 }
 .head-main {
   background-color: rgba(229, 82, 115, 10%);
@@ -37,18 +38,13 @@ body {
   padding: 40px;
   padding-bottom: 0px;
 }
+.hot-section {
+  padding: 100px;
+}
 .head-image {
   height: 504px;
   width: 400px;
 }
-/* .head-title {
-  font-weight: bolder;
-  font-size: 60px;
-  margin: 0;
-  padding: 0;
-  color: #272727;
- 
-} */
 
 .head-left {
   width: 50%;
@@ -62,6 +58,8 @@ body {
 .head-desc {
   margin-top: 30px;
   margin-bottom: 30px;
+  color: #272727af;
+  padding-bottom: 20px;
 }
 
 .btn-pink {
@@ -70,12 +68,10 @@ body {
   border: 0;
   color: white;
   border-radius: 10px;
-  /* font-weight: bold; */
   font-size: 17px;
   text-decoration: none;
 }
 .head-image-parent {
-  /* /* margin-bottom: 0px; */
   padding-bottom: 0px;
 }
 
@@ -110,6 +106,8 @@ body {
 .desc-featured-flower {
   text-align: center;
   margin-bottom: 40px;
+  color: #272727af;
+  padding-top: 20px;
 }
 .title-featured-flower {
   text-align: center;
@@ -119,6 +117,7 @@ body {
 .img-title {
   text-align: center;
   text-decoration: underline;
+  color: #272727;
 }
 .support-section-parent {
   display: flex;
@@ -130,16 +129,19 @@ body {
   margin: 140px;
   border-radius: 10px;
 }
-
+.support-section-parent {
+  padding: 60px;
+}
 .support-section-parent h3 {
-  color: #27272780;
+  color: rgba(39, 39, 39, 80%);
+  font-size: 20;
+  font-weight: 500;
 }
 .off-word,
 .flower-word {
   color: #e55473;
 }
 .head-image2 {
-  /* padding: 30px; */
   width: 200px;
 }
 .head-title2 {
@@ -150,6 +152,8 @@ body {
 }
 .head-paragraph2 {
   text-align: center;
+  padding: 30px;
+  color: #272727af;
 }
 .head-left2 {
   display: flex;
@@ -169,6 +173,7 @@ body {
 }
 .insta-desc {
   text-align: center;
+  margin: 40px;
 }
 .insta-title {
   margin-top: 50px;
@@ -180,10 +185,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* gap: 50px; */
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 50px;
+}
+.youtube-title {
+  margin: 60px;
+  margin-bottom: 0;
 }
 .youtube-head {
   text-align: center;
@@ -194,6 +202,10 @@ body {
   background-color: antiquewhite;
   margin-bottom: 50px;
   margin-top: 100px;
+}
+.youtube-desc {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .subscribe-section-parent {
   display: flex;
@@ -206,7 +218,6 @@ body {
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;
-  /* width: 80%; */
   margin: 100px;
 }
 .deal-text {
@@ -216,13 +227,14 @@ body {
 }
 .placeholder-subs {
   border: none;
-  padding: 15px 300px;
+  padding: 20px 400px;
   padding-left: 15px;
-  /* margin: 10px; */
   border-radius: 10px;
   text-align: left;
   margin-bottom: 140px;
-  /* margin-left: 130px; */
+}
+.tagline-subs {
+  padding: 30px;
 }
 .footer {
   background-color: #111010;
@@ -233,6 +245,8 @@ body {
 }
 .copyright {
   color: #ffffff40;
+  padding: 20px;
 }
-
-/* Additional fix */
+.footer-title {
+  padding: 20px;
+}
